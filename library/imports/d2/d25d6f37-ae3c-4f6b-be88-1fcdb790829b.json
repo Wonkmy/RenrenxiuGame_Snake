@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bigfruit4",
+    "texture": "2258aba2-e8df-491d-9845-a48f2c247da5",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      40,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      42,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
