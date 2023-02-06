@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '2a8a0FAPtVLkaKkP6aohY7H', 'Main');
-// scripts/Main.ts
+cc._RF.push(module, '8d96b8DxB9Dg5rzyh0PD9YX', 'Food');
+// scripts/Food.ts
 
 "use strict";
 // Learn TypeScript:
@@ -29,37 +29,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var Food_1 = require("./Food");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var Main = /** @class */ (function (_super) {
-    __extends(Main, _super);
-    function Main() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.bigfruit = null;
-        _this.bigFruitOrgin_sprite = null;
-        return _this;
+var Food = /** @class */ (function (_super) {
+    __extends(Food, _super);
+    function Food() {
+        return _super !== null && _super.apply(this, arguments) || this;
     }
-    Main.prototype.onLoad = function () {
-        for (var i = 0; i < 4; i++) {
-            for (var j = 0; j < 4; j++) {
-                var newBlock = cc.instantiate(this.bigfruit);
-                newBlock.parent = this.node;
-                newBlock.setPosition(j * newBlock.width, -i * newBlock.height);
-                newBlock.getComponent(Food_1.default).init(this.bigFruitOrgin_sprite.getTexture(), new cc.Vec2(j, i));
-            }
-        }
+    Food.prototype.init = function (picTexture, pos) {
+        var sprite = this.node.getComponent(cc.Sprite);
+        var width = this.node.width;
+        var height = this.node.height;
+        var frame = new cc.SpriteFrame(picTexture, cc.rect(pos.x * width, pos.y * height, width, height));
+        sprite.spriteFrame = frame;
     };
-    __decorate([
-        property({ type: cc.Prefab })
-    ], Main.prototype, "bigfruit", void 0);
-    __decorate([
-        property({ type: cc.SpriteFrame })
-    ], Main.prototype, "bigFruitOrgin_sprite", void 0);
-    Main = __decorate([
+    Food = __decorate([
         ccclass
-    ], Main);
-    return Main;
+    ], Food);
+    return Food;
 }(cc.Component));
-exports.default = Main;
+exports.default = Food;
 
 cc._RF.pop();

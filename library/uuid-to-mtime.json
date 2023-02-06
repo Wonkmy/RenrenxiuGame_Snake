@@ -520,8 +520,8 @@
     "relativePath": "sprites\\fruit"
   },
   "5ee5386d-9987-45a1-b4da-2fa1c52daaba": {
-    "asset": 1675695012190,
-    "meta": 1675695012199,
+    "asset": 1675701071921,
+    "meta": 1675701071928,
     "relativePath": "scenes\\game.fire"
   },
   "abe90900-ffb3-4590-9e49-a07695621c7e": {
@@ -694,9 +694,24 @@
     "meta": 1675694972504,
     "relativePath": "scripts\\Utils\\Platform.js"
   },
+  "8d96bf03-c41f-4383-9af3-ca1d0f0fd617": {
+    "asset": 1675697225164,
+    "meta": 1675697359773,
+    "relativePath": "scripts\\Food.ts"
+  },
+  "0c9cf44c-03b4-4575-903c-cb12faf4fc50": {
+    "asset": 1675697407950,
+    "meta": 1675697408245,
+    "relativePath": "resources"
+  },
+  "bb6d1359-ddee-4cb4-9d02-15ffb3cb68f8": {
+    "asset": 1675699120494,
+    "meta": 1675699120501,
+    "relativePath": "resources\\food_base.prefab"
+  },
   "2a8a0140-3ed5-4b91-a2a4-3fa6a8858ec7": {
-    "asset": 1675695595342,
-    "meta": 1675695740130,
+    "asset": 1675701165326,
+    "meta": 1675701165785,
     "relativePath": "scripts\\Main.ts"
   }
 }

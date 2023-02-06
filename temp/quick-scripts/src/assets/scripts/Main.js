@@ -29,26 +29,32 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var Food_1 = require("./Food");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Main = /** @class */ (function (_super) {
     __extends(Main, _super);
     function Main() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.label = null;
-        _this.text = 'hello';
+        _this.bigfruit = null;
+        _this.bigFruitOrgin_sprite = null;
         return _this;
-        // update (dt) {}
     }
-    // LIFE-CYCLE CALLBACKS:
-    // onLoad () {}
-    Main.prototype.start = function () {
+    Main.prototype.onLoad = function () {
+        for (var i = 0; i < 4; i++) {
+            for (var j = 0; j < 4; j++) {
+                var newBlock = cc.instantiate(this.bigfruit);
+                newBlock.parent = this.node;
+                newBlock.setPosition(j * newBlock.width, -i * newBlock.height);
+                newBlock.getComponent(Food_1.default).init(this.bigFruitOrgin_sprite.getTexture(), new cc.Vec2(j, i));
+            }
+        }
     };
     __decorate([
-        property(cc.Label)
-    ], Main.prototype, "label", void 0);
+        property({ type: cc.Prefab })
+    ], Main.prototype, "bigfruit", void 0);
     __decorate([
-        property
-    ], Main.prototype, "text", void 0);
+        property({ type: cc.SpriteFrame })
+    ], Main.prototype, "bigFruitOrgin_sprite", void 0);
     Main = __decorate([
         ccclass
     ], Main);
