@@ -1,6 +1,6 @@
 
 (function () {
-var scripts = [{"deps":{"./assets/scripts/Block":1,"./assets/scripts/Snake/Snake":3,"./assets/scripts/Snake/Body":4,"./assets/scripts/Main":2},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/scripts/Block.js"},{"deps":{"./Block":1,"./Snake/Snake":3},"path":"preview-scripts/assets/scripts/Main.js"},{"deps":{"./Body":4},"path":"preview-scripts/assets/scripts/Snake/Snake.js"},{"deps":{},"path":"preview-scripts/assets/scripts/Snake/Body.js"}];
+var scripts = [{"deps":{"./assets/scripts/Block":1,"./assets/scripts/Snake/Snake":4,"./assets/scripts/Snake/Body":3,"./assets/scripts/Utils/MyBtn":5,"./assets/scripts/Main":2},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/scripts/Block.js"},{"deps":{"./Block":1,"./Snake/Snake":4,"./Utils/MyBtn":5},"path":"preview-scripts/assets/scripts/Main.js"},{"deps":{},"path":"preview-scripts/assets/scripts/Snake/Body.js"},{"deps":{"./Body":3},"path":"preview-scripts/assets/scripts/Snake/Snake.js"},{"deps":{},"path":"preview-scripts/assets/scripts/Utils/MyBtn.js"}];
 var entries = ["preview-scripts/__qc_index__.js"];
 var bundleScript = 'preview-scripts/__qc_bundle__.js';
 

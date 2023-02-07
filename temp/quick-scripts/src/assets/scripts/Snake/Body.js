@@ -35,17 +35,21 @@ var Body = /** @class */ (function (_super) {
     function Body() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
+    Body.prototype.start = function () {
+        this.node.scale = 0.95;
+    };
     Body.prototype.playAnim = function (duration) {
         var _this = this;
+        this.node.getComponent(cc.BoxCollider).enabled = false;
         cc.tween(this.node)
-            .to(duration, { scale: 1.3 })
-            .to(duration, { scale: 1.0 })
-            .to(duration, { scale: 1.2 })
-            .to(duration, { scale: 1.0 })
+            .to(this.myrandom(duration, duration * 2), { scale: 1.6 }).to(duration, { scale: 0.95 })
             .call(function () {
-            _this.node.resumeAllActions();
+            _this.node.getComponent(cc.BoxCollider).enabled = true;
         })
             .start();
+    };
+    Body.prototype.myrandom = function (lower, upper) {
+        return Math.floor(Math.random() * (upper - lower)) + lower;
     };
     Body = __decorate([
         ccclass

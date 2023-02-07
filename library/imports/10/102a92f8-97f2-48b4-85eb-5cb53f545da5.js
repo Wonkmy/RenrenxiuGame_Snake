@@ -40,6 +40,7 @@ var Snake = /** @class */ (function (_super) {
         _this.curDir = new cc.Vec3(1, 0, 0);
         _this.bodyCount = 3;
         _this.isEat = false;
+        _this.isMove = true;
         return _this;
     }
     Snake.prototype.start = function () {
@@ -53,7 +54,7 @@ var Snake = /** @class */ (function (_super) {
             var newBody = cc.instantiate(this.bodyPrefab);
             cc.find("Canvas").addChild(newBody);
             newBody.setPosition(-i * newBody.width - newBody.width, 0);
-            //this.bodies.push(newBody);
+            this.bodies.splice(i, 0, newBody);
         }
         this.bodyCount = this.bodies.length;
     };
@@ -64,6 +65,14 @@ var Snake = /** @class */ (function (_super) {
         }, 0.5);
     };
     Snake.prototype.move = function () {
+        if (this.isMove == false)
+            return;
+        // if(this.node.x>=294-this.node.width){
+        //     this.isMove=false;
+        // }
+        // if(this.node.x<=-294+this.node.width){
+        //     this.isMove=false;
+        // }
         var vposition = this.node.position;
         this.node.x += this.node.width * this.curDir.x;
         this.node.y += this.node.height * this.curDir.y;
@@ -73,9 +82,9 @@ var Snake = /** @class */ (function (_super) {
             cc.find("Canvas").addChild(newBody);
             newBody.position = vposition;
             this.bodies.splice(0, 0, newBody);
-            if (this.bodies.length > 3) {
+            if (this.bodies.length > 1) {
                 for (var i = 0; i < this.bodies.length; i++) {
-                    this.bodies[i].getComponent(Body_1.default).playAnim(i / 10);
+                    this.bodies[i].getComponent(Body_1.default).playAnim(0.3);
                 }
             }
             this.isEat = false;
@@ -83,7 +92,6 @@ var Snake = /** @class */ (function (_super) {
         else if (this.bodies.length > 0) {
             this.bodies[this.bodies.length - 1].position = vposition;
             this.bodies.splice(0, 0, this.bodies[this.bodies.length - 1]);
-            //this.bodies.splice(this.bodies.length - 1,1,this.bodies[this.bodies.length - 1]);
             this.bodies.pop();
             this.bodyCount = this.bodies.length + 1;
         }
@@ -113,7 +121,11 @@ var Snake = /** @class */ (function (_super) {
     Snake.prototype.onCollisionEnter = function (other, self) {
         if (other.tag == 1) { //食物
             this.isEat = true;
+            cc.game.emit("eating");
             other.node.destroy();
+        }
+        if (other.tag == 0 || other.tag == 2) { //墙壁/身体
+            this.isMove = false;
         }
     };
     __decorate([

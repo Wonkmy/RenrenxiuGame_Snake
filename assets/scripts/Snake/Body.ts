@@ -10,15 +10,21 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class Body extends cc.Component {
 
+    protected start(): void {
+        this.node.scale=0.95
+    }
+
     playAnim(duration){
+        this.node.getComponent(cc.BoxCollider).enabled=false;
         cc.tween(this.node)
-            .to(duration,{scale:1.3})
-            .to(duration,{scale:1.0})
-            .to(duration,{scale:1.2})
-            .to(duration,{scale:1.0})
+            .to(this.myrandom(duration,duration*2),{scale:1.4}).to(duration,{scale:0.95})
             .call(()=>{
-                this.node.resumeAllActions()
+                this.node.getComponent(cc.BoxCollider).enabled=true;
             })
-            .start()
+        .start()
+    }
+
+    myrandom(lower:number, upper:number) {
+     return Math.floor(Math.random() * (upper - lower)) + lower;
     }
 }

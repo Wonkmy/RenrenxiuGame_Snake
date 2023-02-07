@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '02256OWLZ1EWq8rz5C87aZn', 'Body');
-// scripts/Snake/Body.ts
+cc._RF.push(module, '2a3b0yIO51C0KOw/PsgEemT', 'MyBtn');
+// scripts/Utils/MyBtn.ts
 
 "use strict";
 // Learn TypeScript:
@@ -30,32 +30,27 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var Body = /** @class */ (function (_super) {
-    __extends(Body, _super);
-    function Body() {
+var MyBtn = /** @class */ (function (_super) {
+    __extends(MyBtn, _super);
+    function MyBtn() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Body.prototype.start = function () {
-        this.node.scale = 0.95;
+    MyBtn.prototype.start = function () {
+        this.pressed_node = this.node.children[0];
+        this.pressed_node.active = false;
     };
-    Body.prototype.playAnim = function (duration) {
+    MyBtn.prototype.onPressed = function () {
         var _this = this;
-        this.node.getComponent(cc.BoxCollider).enabled = false;
-        cc.tween(this.node)
-            .to(this.myrandom(duration, duration * 2), { scale: 1.6 }).to(duration, { scale: 0.95 })
-            .call(function () {
-            _this.node.getComponent(cc.BoxCollider).enabled = true;
-        })
-            .start();
+        this.pressed_node.active = true;
+        this.scheduleOnce(function () {
+            _this.pressed_node.active = false;
+        }, 0.2);
     };
-    Body.prototype.myrandom = function (lower, upper) {
-        return Math.floor(Math.random() * (upper - lower)) + lower;
-    };
-    Body = __decorate([
+    MyBtn = __decorate([
         ccclass
-    ], Body);
-    return Body;
+    ], MyBtn);
+    return MyBtn;
 }(cc.Component));
-exports.default = Body;
+exports.default = MyBtn;
 
 cc._RF.pop();

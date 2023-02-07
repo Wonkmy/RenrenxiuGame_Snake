@@ -31,6 +31,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var Block_1 = require("./Block");
 var Snake_1 = require("./Snake/Snake");
+var MyBtn_1 = require("./Utils/MyBtn");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Main = /** @class */ (function (_super) {
     __extends(Main, _super);
@@ -39,6 +40,7 @@ var Main = /** @class */ (function (_super) {
         _this.bigfruit = null;
         _this.snakePrefab = null;
         _this.bigFruitOrgin_sprite = null;
+        _this.fruitOrgin_sprite = null;
         _this.upArrow = null;
         _this.downArrow = null;
         _this.leftArrow = null;
@@ -46,32 +48,40 @@ var Main = /** @class */ (function (_super) {
         return _this;
     }
     Main.prototype.onLoad = function () {
-        this.GeneratorBigFood(this.bigFruitOrgin_sprite.getTexture());
+        //this.GeneratorBigFood(this.bigFruitOrgin_sprite.getTexture());
+        this.generateNewFood();
         cc.director.getCollisionManager().enabled = true;
-        cc.director.getPhysicsManager().enabled = true;
-        this.upArrow.on(cc.Node.EventType.TOUCH_END, function () {
-            console.log("move!!!");
+        this.registerAllEvents();
+        this.GeneratorSnake();
+    };
+    Main.prototype.generateNewFood = function () {
+        this.GeneratorFood(this.fruitOrgin_sprite, new cc.Vec2(this.myrandom(-280, 280), this.myrandom(-280, 380)));
+    };
+    Main.prototype.registerAllEvents = function () {
+        var _this = this;
+        this.upArrow.node.on(cc.Node.EventType.TOUCH_START, function () {
+            _this.upArrow.onPressed();
             cc.game.emit("move_up", "up");
         }, this);
-        this.downArrow.on(cc.Node.EventType.TOUCH_END, function () {
-            console.log("move!!!");
+        this.downArrow.node.on(cc.Node.EventType.TOUCH_START, function () {
+            _this.downArrow.onPressed();
             cc.game.emit("move_down", "down");
         }, this);
-        this.leftArrow.on(cc.Node.EventType.TOUCH_END, function () {
-            console.log("move!!!");
+        this.leftArrow.node.on(cc.Node.EventType.TOUCH_START, function () {
+            _this.leftArrow.onPressed();
             cc.game.emit("move_left", "left");
         }, this);
-        this.rightArrow.on(cc.Node.EventType.TOUCH_END, function () {
-            console.log("move!!!");
+        this.rightArrow.node.on(cc.Node.EventType.TOUCH_START, function () {
+            _this.rightArrow.onPressed();
             cc.game.emit("move_right", "right");
         }, this);
-        this.GeneratorSnake();
+        cc.game.on("eating", this.generateNewFood, this);
     };
     Main.prototype.GeneratorSnake = function () {
         var newSnake = cc.instantiate(this.snakePrefab);
         newSnake.setParent(this.node);
         newSnake.setPosition(cc.Vec2.ZERO);
-        //newSnake.getComponent(Snake).initSnake(0);
+        newSnake.getComponent(Snake_1.default).initSnake(2);
         newSnake.getComponent(Snake_1.default).startMove();
     };
     Main.prototype.GeneratorBigFood = function (bigFriutSprite) {
@@ -79,7 +89,7 @@ var Main = /** @class */ (function (_super) {
             for (var j = 0; j < 2; j++) {
                 var newBlock = cc.instantiate(this.bigfruit);
                 newBlock.parent = this.node;
-                newBlock.setPosition(j * newBlock.width * 1.2, -i * newBlock.height * 1.2);
+                newBlock.setPosition(j * newBlock.width * 1.2 + 200, -i * newBlock.height * 1.2 + 200);
                 newBlock.getComponent(Block_1.default).init(bigFriutSprite, new cc.Vec2(j, i), 0);
             }
         }
@@ -96,6 +106,9 @@ var Main = /** @class */ (function (_super) {
         newBlock.setPosition(pos.x, pos.y);
         newBlock.getComponent(Block_1.default).init(bombSprite);
     };
+    Main.prototype.myrandom = function (lower, upper) {
+        return Math.floor(Math.random() * (upper - lower)) + lower;
+    };
     __decorate([
         property({ type: cc.Prefab })
     ], Main.prototype, "bigfruit", void 0);
@@ -106,16 +119,19 @@ var Main = /** @class */ (function (_super) {
         property({ type: cc.SpriteFrame })
     ], Main.prototype, "bigFruitOrgin_sprite", void 0);
     __decorate([
-        property(cc.Node)
+        property({ type: cc.SpriteFrame })
+    ], Main.prototype, "fruitOrgin_sprite", void 0);
+    __decorate([
+        property(MyBtn_1.default)
     ], Main.prototype, "upArrow", void 0);
     __decorate([
-        property(cc.Node)
+        property(MyBtn_1.default)
     ], Main.prototype, "downArrow", void 0);
     __decorate([
-        property(cc.Node)
+        property(MyBtn_1.default)
     ], Main.prototype, "leftArrow", void 0);
     __decorate([
-        property(cc.Node)
+        property(MyBtn_1.default)
     ], Main.prototype, "rightArrow", void 0);
     Main = __decorate([
         ccclass

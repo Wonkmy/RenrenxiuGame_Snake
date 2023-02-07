@@ -15,13 +15,15 @@ export default class Snake extends cc.Component {
     @property(cc.Prefab)
     bodyPrefab: cc.Prefab = null;
 
-    bodies:cc.Node[]=[]
+    bodies:cc.Node[]=[];
 
-    curDir:cc.Vec3 = new cc.Vec3(1,0,0)
+    curDir:cc.Vec3 = new cc.Vec3(1,0,0);
 
-    bodyCount=3
+    bodyCount=3;
 
-    isEat=false
+    isEat=false;
+
+    isMove=true;
 
     start(){
         cc.game.on("move_up",this.OnChangeSnakeDir,this);
@@ -35,7 +37,7 @@ export default class Snake extends cc.Component {
             let newBody = cc.instantiate(this.bodyPrefab);
             cc.find("Canvas").addChild(newBody);
             newBody.setPosition(-i*newBody.width-newBody.width,0);
-            //this.bodies.push(newBody);
+            this.bodies.splice(i,0,newBody);
         }
         this.bodyCount=this.bodies.length;
     }
@@ -45,8 +47,14 @@ export default class Snake extends cc.Component {
             this.move();
         },0.5);
     }
-
     move(){
+        if(this.isMove==false)return;
+        // if(this.node.x>=294-this.node.width){
+        //     this.isMove=false;
+        // }
+        // if(this.node.x<=-294+this.node.width){
+        //     this.isMove=false;
+        // }
         let vposition=this.node.position;
         this.node.x+=this.node.width * this.curDir.x;
         this.node.y+=this.node.height * this.curDir.y;
@@ -57,17 +65,17 @@ export default class Snake extends cc.Component {
             cc.find("Canvas").addChild(newBody);
             newBody.position=vposition;
             this.bodies.splice(0,0,newBody);
-            if(this.bodies.length>3){
+            
+            if (this.bodies.length > 1) {
                 for (let i = 0; i < this.bodies.length; i++) {
-                    this.bodies[i].getComponent(Body).playAnim(i / 10);
+                    this.bodies[i].getComponent(Body).playAnim(0.3);
                 }
             }
-            
             this.isEat=false;
-        }else if(this.bodies.length>0){
+        }
+        else if(this.bodies.length>0){
             this.bodies[this.bodies.length - 1].position = vposition;
             this.bodies.splice(0,0,this.bodies[this.bodies.length - 1]);
-            //this.bodies.splice(this.bodies.length - 1,1,this.bodies[this.bodies.length - 1]);
             this.bodies.pop();
             this.bodyCount=this.bodies.length+1;
         }
@@ -96,7 +104,12 @@ export default class Snake extends cc.Component {
     onCollisionEnter(other, self) {
         if(other.tag==1){//食物
             this.isEat=true;
+            cc.game.emit("eating");
             other.node.destroy()
+        }
+
+        if(other.tag==0 || other.tag==2){//墙壁/身体
+            this.isMove=false;
         }
     }
 }
