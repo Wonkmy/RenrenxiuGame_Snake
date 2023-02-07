@@ -10,16 +10,23 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class Block extends cc.Component {
 
-    init(picTexture,pos=cc.Vec2.ZERO,fruitType = 1): void {
+    fruitType=-1
+
+    init(picTexture,pos=cc.Vec2.ZERO,_fruitType = 1): void {
+        this.fruitType=_fruitType;
         let sprite=this.node.getComponent(cc.Sprite);
             let width = this.node.width;
             let height = this.node.height;
-        if(fruitType==0){
+        if(this.fruitType==0){
             let frame=new cc.SpriteFrame(picTexture,cc.rect(pos.x * width,pos.y * height,width,height));
             sprite.spriteFrame=frame;
         }
-        else if(fruitType==1){
+        else if(this.fruitType==1){
             sprite.spriteFrame=picTexture;
         }
+    }
+
+    onCollisionEnter(other, self) {
+        
     }
 }
