@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '8d96b8DxB9Dg5rzyh0PD9YX', 'Food');
-// scripts/Food.ts
+cc._RF.push(module, '8d96b8DxB9Dg5rzyh0PD9YX', 'Block');
+// scripts/Block.ts
 
 "use strict";
 // Learn TypeScript:
@@ -30,23 +30,30 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var Food = /** @class */ (function (_super) {
-    __extends(Food, _super);
-    function Food() {
+var Block = /** @class */ (function (_super) {
+    __extends(Block, _super);
+    function Block() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Food.prototype.init = function (picTexture, pos) {
+    Block.prototype.init = function (picTexture, pos, fruitType) {
+        if (pos === void 0) { pos = cc.Vec2.ZERO; }
+        if (fruitType === void 0) { fruitType = 1; }
         var sprite = this.node.getComponent(cc.Sprite);
         var width = this.node.width;
         var height = this.node.height;
-        var frame = new cc.SpriteFrame(picTexture, cc.rect(pos.x * width, pos.y * height, width, height));
-        sprite.spriteFrame = frame;
+        if (fruitType == 0) {
+            var frame = new cc.SpriteFrame(picTexture, cc.rect(pos.x * width, pos.y * height, width, height));
+            sprite.spriteFrame = frame;
+        }
+        else if (fruitType == 1) {
+            sprite.spriteFrame = picTexture;
+        }
     };
-    Food = __decorate([
+    Block = __decorate([
         ccclass
-    ], Food);
-    return Food;
+    ], Block);
+    return Block;
 }(cc.Component));
-exports.default = Food;
+exports.default = Block;
 
 cc._RF.pop();

@@ -1,3 +1,3 @@
 
-require('./assets/scripts/Food');
+require('./assets/scripts/Block');
 require('./assets/scripts/Main');

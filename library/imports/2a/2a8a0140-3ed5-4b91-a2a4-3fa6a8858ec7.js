@@ -29,7 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var Food_1 = require("./Food");
+var Block_1 = require("./Block");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Main = /** @class */ (function (_super) {
     __extends(Main, _super);
@@ -40,14 +40,29 @@ var Main = /** @class */ (function (_super) {
         return _this;
     }
     Main.prototype.onLoad = function () {
-        for (var i = 0; i < 4; i++) {
-            for (var j = 0; j < 4; j++) {
+        this.GeneratorBigFood(this.bigFruitOrgin_sprite.getTexture());
+    };
+    Main.prototype.GeneratorBigFood = function (bigFriutSprite) {
+        for (var i = 0; i < 2; i++) {
+            for (var j = 0; j < 2; j++) {
                 var newBlock = cc.instantiate(this.bigfruit);
                 newBlock.parent = this.node;
-                newBlock.setPosition(j * newBlock.width, -i * newBlock.height);
-                newBlock.getComponent(Food_1.default).init(this.bigFruitOrgin_sprite.getTexture(), new cc.Vec2(j, i));
+                newBlock.setPosition(j * newBlock.width * 1.2, -i * newBlock.height * 1.2);
+                newBlock.getComponent(Block_1.default).init(bigFriutSprite, new cc.Vec2(j, i), 0);
             }
         }
+    };
+    Main.prototype.GeneratorFood = function (foodSprite, pos) {
+        var newBlock = cc.instantiate(this.bigfruit);
+        newBlock.parent = this.node;
+        newBlock.setPosition(pos.x, pos.y);
+        newBlock.getComponent(Block_1.default).init(foodSprite);
+    };
+    Main.prototype.GeneratorBomb = function (bombSprite, pos) {
+        var newBlock = cc.instantiate(this.bigfruit);
+        newBlock.parent = this.node;
+        newBlock.setPosition(pos.x, pos.y);
+        newBlock.getComponent(Block_1.default).init(bombSprite);
     };
     __decorate([
         property({ type: cc.Prefab })
