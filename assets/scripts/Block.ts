@@ -26,7 +26,5 @@ export default class Block extends cc.Component {
         }
     }
 
-    onCollisionEnter(other, self) {
-        
-    }
+    
 }

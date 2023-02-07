@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '8d96b8DxB9Dg5rzyh0PD9YX', 'Block');
-// scripts/Block.ts
+cc._RF.push(module, '02256OWLZ1EWq8rz5C87aZn', 'Body');
+// scripts/Snake/Body.ts
 
 "use strict";
 // Learn TypeScript:
@@ -30,33 +30,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var Block = /** @class */ (function (_super) {
-    __extends(Block, _super);
-    function Block() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.fruitType = -1;
-        return _this;
+var Body = /** @class */ (function (_super) {
+    __extends(Body, _super);
+    function Body() {
+        return _super !== null && _super.apply(this, arguments) || this;
     }
-    Block.prototype.init = function (picTexture, pos, _fruitType) {
-        if (pos === void 0) { pos = cc.Vec2.ZERO; }
-        if (_fruitType === void 0) { _fruitType = 1; }
-        this.fruitType = _fruitType;
-        var sprite = this.node.getComponent(cc.Sprite);
-        var width = this.node.width;
-        var height = this.node.height;
-        if (this.fruitType == 0) {
-            var frame = new cc.SpriteFrame(picTexture, cc.rect(pos.x * width, pos.y * height, width, height));
-            sprite.spriteFrame = frame;
-        }
-        else if (this.fruitType == 1) {
-            sprite.spriteFrame = picTexture;
-        }
+    Body.prototype.playAnim = function (duration) {
+        var _this = this;
+        cc.tween(this.node)
+            .to(duration, { scale: 1.3 })
+            .to(duration, { scale: 1.0 })
+            .to(duration, { scale: 1.2 })
+            .to(duration, { scale: 1.0 })
+            .call(function () {
+            _this.node.resumeAllActions();
+        })
+            .start();
     };
-    Block = __decorate([
+    Body = __decorate([
         ccclass
-    ], Block);
-    return Block;
+    ], Body);
+    return Body;
 }(cc.Component));
-exports.default = Block;
+exports.default = Body;
 
 cc._RF.pop();

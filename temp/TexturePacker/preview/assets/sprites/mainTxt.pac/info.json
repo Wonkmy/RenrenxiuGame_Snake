@@ -1,0 +1,1020 @@
+{
+  "projectPath": "/Users/cocosProjects/RenrenxiuGame_Snake",
+  "mtimes": {
+    "0e25d315-3701-48f0-9ab9-4020df615bed": {
+      "assetMtime": 1675737249206,
+      "metaMtime": 1675737255639
+    },
+    "07204429-a753-4639-990b-58875a21ded0": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727196
+    },
+    "535a6e02-f5be-432d-9ea8-57ebabcec9f8": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727196
+    },
+    "0e1dd8b9-0b3e-49d1-b0b7-54a9bf3644ae": {
+      "assetMtime": 1675731608214,
+      "metaMtime": 1675731727201
+    },
+    "2916df34-c534-47e7-82fd-60cf8aa557e6": {
+      "assetMtime": 1675731608214,
+      "metaMtime": 1675731727201
+    },
+    "1408f618-780d-46f3-824d-38228d621b13": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727172
+    },
+    "0cc364ad-864c-470d-a926-aed06f746522": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727172
+    },
+    "17ad5db4-82f0-4e63-b155-769432c73518": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727224
+    },
+    "f9282ebe-c2f4-4323-8ba9-80e9d129cda7": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727224
+    },
+    "1e5337f4-e6e3-435e-9299-6187b2cb0c6b": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727213
+    },
+    "c488d29c-e218-4484-ba2e-77727611bc6a": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727213
+    },
+    "1ec950fb-2e5e-40cc-81ea-059cf57e5b7e": {
+      "assetMtime": 1675731608213,
+      "metaMtime": 1675731727158
+    },
+    "8fb8e502-cbf2-4932-9779-d35fa01ea453": {
+      "assetMtime": 1675731608213,
+      "metaMtime": 1675731727158
+    },
+    "23194d3b-9e5f-43f7-9834-f7211b69b7c1": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727214
+    },
+    "dbab95f4-000e-4b04-9088-32365e3482c6": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727214
+    },
+    "25baf9a8-e8d5-465f-92dd-7368a05b5862": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727190
+    },
+    "46007cd3-64ec-46e3-a47d-c1081da71a25": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727190
+    },
+    "2b5febae-913a-4f99-8685-3de76aed7dc0": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727223
+    },
+    "562b0c91-106d-451a-803c-d1166b8a80bd": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727223
+    },
+    "2eb7110c-220c-4e1f-ac34-56b194f159ac": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727178
+    },
+    "2761be78-feb4-4f83-9070-e4d415673ccc": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727178
+    },
+    "46c83851-2f3f-4a06-b0d2-a5e3255f4b85": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727174
+    },
+    "857ea36a-0bb6-42d9-8b76-b488ea6e8936": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727174
+    },
+    "500c6f59-37ef-4749-9165-b63345642e1e": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727217
+    },
+    "a49340b6-6c2c-4cc2-a070-2672db4a9069": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727217
+    },
+    "56483bff-765c-48a1-bcf6-7998752d855a": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727224
+    },
+    "2eed63c0-1e1b-4804-b527-f7b7b86ab271": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727224
+    },
+    "5a227c0d-2c9c-4034-99df-35b232bd5478": {
+      "assetMtime": 1675731608215,
+      "metaMtime": 1675731727162
+    },
+    "91afe94d-8d9d-4a7e-bcc5-2113dfee48e4": {
+      "assetMtime": 1675731608215,
+      "metaMtime": 1675731727162
+    },
+    "5d7f878d-aaf6-4c75-a6bb-c028593d9900": {
+      "assetMtime": 1675731608215,
+      "metaMtime": 1675731727215
+    },
+    "d340cc3d-5401-4ada-bb5b-1ffb60211a1c": {
+      "assetMtime": 1675731608215,
+      "metaMtime": 1675731727215
+    },
+    "7ea8b42b-afdb-4f4d-8423-36fe7a2497cf": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727216
+    },
+    "f2ee1138-55c2-4143-81ec-084864a647fe": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727216
+    },
+    "8655013d-2354-445e-bc7b-8b2d34b777ce": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727211
+    },
+    "acfa2572-a36a-4d4b-9ff1-899f9ad86a4d": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727211
+    },
+    "8cbe5481-dd45-4e03-b250-545e810e2541": {
+      "assetMtime": 1675731608215,
+      "metaMtime": 1675731727162
+    },
+    "a9338fdb-bac3-4632-a12a-61b695519744": {
+      "assetMtime": 1675731608215,
+      "metaMtime": 1675731727162
+    },
+    "90ed1846-10f6-4982-af6f-27431390ee4a": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727179
+    },
+    "b47b13d5-a9c4-452e-808b-57a5a51f6309": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727179
+    },
+    "938cd70b-8d39-495c-a55f-50bc5212c3ee": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727212
+    },
+    "c9e6f13e-39b5-4ca1-afd6-83c6fcad8139": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727212
+    },
+    "96a20e09-0cd0-4db5-a329-0f4c87c096e3": {
+      "assetMtime": 1675731608213,
+      "metaMtime": 1675731727160
+    },
+    "5426717d-2c0d-4bff-b2f1-b892cb8fd43c": {
+      "assetMtime": 1675731608213,
+      "metaMtime": 1675731727160
+    },
+    "96bd552d-939e-4aac-a4e0-4479e083a76d": {
+      "assetMtime": 1675731608215,
+      "metaMtime": 1675731727165
+    },
+    "9c14ae20-2066-48ef-941b-26eaac99e517": {
+      "assetMtime": 1675731608215,
+      "metaMtime": 1675731727165
+    },
+    "a24a5ff7-8b61-42e9-a263-40b79d6437e6": {
+      "assetMtime": 1675731608214,
+      "metaMtime": 1675731727161
+    },
+    "abe90900-ffb3-4590-9e49-a07695621c7e": {
+      "assetMtime": 1675731608214,
+      "metaMtime": 1675731727161
+    },
+    "b5abe5ec-4e93-4e83-9699-1ca6e4666fad": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727179
+    },
+    "c8a08785-84a6-4fc1-914e-26c66bcd91d0": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727179
+    },
+    "bf88e851-95ce-4a06-aca5-ecd054efbd34": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727187
+    },
+    "8370f0f1-cc2a-4efb-8ff6-ca71564f9530": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727187
+    },
+    "bffb11b8-76a3-433d-9c64-f2cd661ea99c": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727197
+    },
+    "4d07bc66-a634-4872-b48b-3add3c827018": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727197
+    },
+    "cb0dd029-e59a-4cfd-84e7-69695083694b": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727177
+    },
+    "9271aa2b-aad3-4116-8d70-6a49f879d392": {
+      "assetMtime": 1675731608217,
+      "metaMtime": 1675731727177
+    },
+    "d25d6f37-ae3c-4f6b-be88-1fcdb790829b": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727217
+    },
+    "2258aba2-e8df-491d-9845-a48f2c247da5": {
+      "assetMtime": 1675731608216,
+      "metaMtime": 1675731727217
+    },
+    "d2940f07-164d-4202-a299-f3143377f252": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727202
+    },
+    "4fa56ab5-62b7-4a8f-abc0-3d85430c35ff": {
+      "assetMtime": 1675731608219,
+      "metaMtime": 1675731727202
+    },
+    "ecdec37e-deae-4fac-8550-4c6356723256": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727194
+    },
+    "dadbb8ea-5bb6-4683-9190-44d3d0fff1ca": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727194
+    },
+    "ffe4083b-1ad1-423d-b796-c4ce52ebe9a9": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727192
+    },
+    "7a6baf43-b930-41c8-a7db-51c3b48b525b": {
+      "assetMtime": 1675731608218,
+      "metaMtime": 1675731727192
+    }
+  },
+  "result": {
+    "name": "mainTxt-2",
+    "width": 155,
+    "height": 155,
+    "ver": "1.2.5",
+    "uuid": "0e25d315-3701-48f0-9ab9-4020df615bed",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "game-bg",
+            "uuid": "cb0dd029-e59a-4cfd-84e7-69695083694b",
+            "textureUuid": "9271aa2b-aad3-4116-8d70-6a49f879d392",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_26.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 676,
+              "height": 819,
+              "rotatedWidth": 676,
+              "rotatedHeight": 819
+            },
+            "rawWidth": 676,
+            "rawHeight": 819,
+            "width": 682,
+            "height": 825,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/92/9271aa2b-aad3-4116-8d70-6a49f879d392.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 682,
+            "rotatedHeight": 825
+          },
+          {
+            "name": "score",
+            "uuid": "25baf9a8-e8d5-465f-92dd-7368a05b5862",
+            "textureUuid": "46007cd3-64ec-46e3-a47d-c1081da71a25",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259826_image_7.png",
+            "trim": {
+              "x": 3,
+              "y": 828,
+              "width": 162,
+              "height": 61,
+              "rotatedWidth": 61,
+              "rotatedHeight": 162
+            },
+            "rawWidth": 162,
+            "rawHeight": 61,
+            "width": 168,
+            "height": 67,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/46/46007cd3-64ec-46e3-a47d-c1081da71a25.png",
+            "x": 0,
+            "y": 825,
+            "rotated": true,
+            "rotatedWidth": 67,
+            "rotatedHeight": 168
+          },
+          {
+            "name": "bigfruit2",
+            "uuid": "23194d3b-9e5f-43f7-9834-f7211b69b7c1",
+            "textureUuid": "dbab95f4-000e-4b04-9088-32365e3482c6",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259826_image_6.png",
+            "trim": {
+              "x": 3,
+              "y": 996,
+              "width": 24,
+              "height": 42,
+              "rotatedWidth": 42,
+              "rotatedHeight": 24
+            },
+            "rawWidth": 42,
+            "rawHeight": 42,
+            "width": 30,
+            "height": 48,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/db/dbab95f4-000e-4b04-9088-32365e3482c6.png",
+            "x": 0,
+            "y": 993,
+            "rotated": true,
+            "rotatedWidth": 48,
+            "rotatedHeight": 30
+          },
+          {
+            "name": "snake",
+            "uuid": "07204429-a753-4639-990b-58875a21ded0",
+            "textureUuid": "535a6e02-f5be-432d-9ea8-57ebabcec9f8",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259825_image_0.png",
+            "trim": {
+              "x": 51,
+              "y": 996,
+              "width": 21,
+              "height": 21,
+              "rotatedWidth": 21,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 21,
+            "rawHeight": 21,
+            "width": 27,
+            "height": 27,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/53/535a6e02-f5be-432d-9ea8-57ebabcec9f8.png",
+            "x": 48,
+            "y": 993,
+            "rotatedWidth": 27,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "info_bg",
+            "uuid": "46c83851-2f3f-4a06-b0d2-a5e3255f4b85",
+            "textureUuid": "857ea36a-0bb6-42d9-8b76-b488ea6e8936",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259827_image_10.png",
+            "trim": {
+              "x": 70,
+              "y": 828,
+              "width": 676,
+              "height": 150,
+              "rotatedWidth": 676,
+              "rotatedHeight": 150
+            },
+            "rawWidth": 676,
+            "rawHeight": 150,
+            "width": 682,
+            "height": 156,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/85/857ea36a-0bb6-42d9-8b76-b488ea6e8936.png",
+            "x": 67,
+            "y": 825,
+            "rotatedWidth": 682,
+            "rotatedHeight": 156
+          },
+          {
+            "name": "progress",
+            "uuid": "90ed1846-10f6-4982-af6f-27431390ee4a",
+            "textureUuid": "b47b13d5-a9c4-452e-808b-57a5a51f6309",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259827_image_18.png",
+            "trim": {
+              "x": 78,
+              "y": 984,
+              "width": 367,
+              "height": 37,
+              "rotatedWidth": 367,
+              "rotatedHeight": 37
+            },
+            "rawWidth": 367,
+            "rawHeight": 37,
+            "width": 373,
+            "height": 43,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/b4/b47b13d5-a9c4-452e-808b-57a5a51f6309.png",
+            "x": 75,
+            "y": 981,
+            "rotatedWidth": 373,
+            "rotatedHeight": 43
+          },
+          {
+            "name": "progress_bg",
+            "uuid": "bf88e851-95ce-4a06-aca5-ecd054efbd34",
+            "textureUuid": "8370f0f1-cc2a-4efb-8ff6-ca71564f9530",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_24.png",
+            "trim": {
+              "x": 451,
+              "y": 984,
+              "width": 367,
+              "height": 37,
+              "rotatedWidth": 367,
+              "rotatedHeight": 37
+            },
+            "rawWidth": 367,
+            "rawHeight": 37,
+            "width": 373,
+            "height": 43,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/83/8370f0f1-cc2a-4efb-8ff6-ca71564f9530.png",
+            "x": 448,
+            "y": 981,
+            "rotatedWidth": 373,
+            "rotatedHeight": 43
+          },
+          {
+            "name": "1234567890 _border",
+            "uuid": "96a20e09-0cd0-4db5-a329-0f4c87c096e3",
+            "textureUuid": "5426717d-2c0d-4bff-b2f1-b892cb8fd43c",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_20.png",
+            "trim": {
+              "x": 685,
+              "y": 3,
+              "width": 290,
+              "height": 40,
+              "rotatedWidth": 290,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 290,
+            "rawHeight": 40,
+            "width": 296,
+            "height": 46,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/54/5426717d-2c0d-4bff-b2f1-b892cb8fd43c.png",
+            "x": 682,
+            "y": 0,
+            "rotatedWidth": 296,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "bigfruit1",
+            "uuid": "5d7f878d-aaf6-4c75-a6bb-c028593d9900",
+            "textureUuid": "d340cc3d-5401-4ada-bb5b-1ffb60211a1c",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259827_image_14.png",
+            "trim": {
+              "x": 981,
+              "y": 3,
+              "width": 40,
+              "height": 42,
+              "rotatedWidth": 40,
+              "rotatedHeight": 42
+            },
+            "rawWidth": 42,
+            "rawHeight": 42,
+            "width": 46,
+            "height": 48,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/d3/d340cc3d-5401-4ada-bb5b-1ffb60211a1c.png",
+            "x": 978,
+            "y": 0,
+            "rotatedWidth": 46,
+            "rotatedHeight": 48
+          },
+          {
+            "name": "left",
+            "uuid": "1408f618-780d-46f3-824d-38228d621b13",
+            "textureUuid": "0cc364ad-864c-470d-a926-aed06f746522",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259826_image_2.png",
+            "trim": {
+              "x": 824,
+              "y": 49,
+              "width": 149,
+              "height": 149,
+              "rotatedWidth": 149,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 149,
+            "rawHeight": 149,
+            "width": 155,
+            "height": 155,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/0c/0cc364ad-864c-470d-a926-aed06f746522.png",
+            "x": 821,
+            "y": 46,
+            "rotatedWidth": 155,
+            "rotatedHeight": 155
+          },
+          {
+            "name": "bigfruit4",
+            "uuid": "d25d6f37-ae3c-4f6b-be88-1fcdb790829b",
+            "textureUuid": "2258aba2-e8df-491d-9845-a48f2c247da5",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_27.png",
+            "trim": {
+              "x": 979,
+              "y": 51,
+              "width": 40,
+              "height": 42,
+              "rotatedWidth": 42,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 42,
+            "rawHeight": 42,
+            "width": 46,
+            "height": 48,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/22/2258aba2-e8df-491d-9845-a48f2c247da5.png",
+            "x": 976,
+            "y": 48,
+            "rotated": true,
+            "rotatedWidth": 48,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "bigfruit3",
+            "uuid": "7ea8b42b-afdb-4f4d-8423-36fe7a2497cf",
+            "textureUuid": "f2ee1138-55c2-4143-81ec-084864a647fe",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259827_image_15.png",
+            "trim": {
+              "x": 979,
+              "y": 97,
+              "width": 36,
+              "height": 42,
+              "rotatedWidth": 42,
+              "rotatedHeight": 36
+            },
+            "rawWidth": 42,
+            "rawHeight": 42,
+            "width": 42,
+            "height": 48,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/f2/f2ee1138-55c2-4143-81ec-084864a647fe.png",
+            "x": 976,
+            "y": 94,
+            "rotated": true,
+            "rotatedWidth": 48,
+            "rotatedHeight": 42
+          },
+          {
+            "name": "star1",
+            "uuid": "8655013d-2354-445e-bc7b-8b2d34b777ce",
+            "textureUuid": "acfa2572-a36a-4d4b-9ff1-899f9ad86a4d",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259827_image_16.png",
+            "trim": {
+              "x": 979,
+              "y": 139,
+              "width": 41,
+              "height": 44,
+              "rotatedWidth": 41,
+              "rotatedHeight": 44
+            },
+            "rawWidth": 41,
+            "rawHeight": 44,
+            "width": 47,
+            "height": 50,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/ac/acfa2572-a36a-4d4b-9ff1-899f9ad86a4d.png",
+            "x": 976,
+            "y": 136,
+            "rotatedWidth": 47,
+            "rotatedHeight": 50
+          },
+          {
+            "name": "star0",
+            "uuid": "d2940f07-164d-4202-a299-f3143377f252",
+            "textureUuid": "4fa56ab5-62b7-4a8f-abc0-3d85430c35ff",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_28.png",
+            "trim": {
+              "x": 979,
+              "y": 189,
+              "width": 41,
+              "height": 44,
+              "rotatedWidth": 41,
+              "rotatedHeight": 44
+            },
+            "rawWidth": 41,
+            "rawHeight": 44,
+            "width": 47,
+            "height": 50,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/4f/4fa56ab5-62b7-4a8f-abc0-3d85430c35ff.png",
+            "x": 976,
+            "y": 186,
+            "rotatedWidth": 47,
+            "rotatedHeight": 50
+          },
+          {
+            "name": "up",
+            "uuid": "1e5337f4-e6e3-435e-9299-6187b2cb0c6b",
+            "textureUuid": "c488d29c-e218-4484-ba2e-77727611bc6a",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259826_image_4.png",
+            "trim": {
+              "x": 824,
+              "y": 204,
+              "width": 149,
+              "height": 149,
+              "rotatedWidth": 149,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 149,
+            "rawHeight": 149,
+            "width": 155,
+            "height": 155,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/c4/c488d29c-e218-4484-ba2e-77727611bc6a.png",
+            "x": 821,
+            "y": 201,
+            "rotatedWidth": 155,
+            "rotatedHeight": 155
+          },
+          {
+            "name": "1234567890",
+            "uuid": "1ec950fb-2e5e-40cc-81ea-059cf57e5b7e",
+            "textureUuid": "8fb8e502-cbf2-4932-9779-d35fa01ea453",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259826_image_5.png",
+            "trim": {
+              "x": 979,
+              "y": 239,
+              "width": 286,
+              "height": 36,
+              "rotatedWidth": 36,
+              "rotatedHeight": 286
+            },
+            "rawWidth": 286,
+            "rawHeight": 36,
+            "width": 292,
+            "height": 42,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/8f/8fb8e502-cbf2-4932-9779-d35fa01ea453.png",
+            "x": 976,
+            "y": 236,
+            "rotated": true,
+            "rotatedWidth": 42,
+            "rotatedHeight": 292
+          },
+          {
+            "name": "left_press",
+            "uuid": "2eb7110c-220c-4e1f-ac34-56b194f159ac",
+            "textureUuid": "2761be78-feb4-4f83-9070-e4d415673ccc",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259826_image_9.png",
+            "trim": {
+              "x": 824,
+              "y": 359,
+              "width": 149,
+              "height": 149,
+              "rotatedWidth": 149,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 149,
+            "rawHeight": 149,
+            "width": 155,
+            "height": 155,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/27/2761be78-feb4-4f83-9070-e4d415673ccc.png",
+            "x": 821,
+            "y": 356,
+            "rotatedWidth": 155,
+            "rotatedHeight": 155
+          },
+          {
+            "name": "down",
+            "uuid": "5a227c0d-2c9c-4034-99df-35b232bd5478",
+            "textureUuid": "91afe94d-8d9d-4a7e-bcc5-2113dfee48e4",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259827_image_13.png",
+            "trim": {
+              "x": 824,
+              "y": 514,
+              "width": 149,
+              "height": 149,
+              "rotatedWidth": 149,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 149,
+            "rawHeight": 149,
+            "width": 155,
+            "height": 155,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/91/91afe94d-8d9d-4a7e-bcc5-2113dfee48e4.png",
+            "x": 821,
+            "y": 511,
+            "rotatedWidth": 155,
+            "rotatedHeight": 155
+          },
+          {
+            "name": "up_press",
+            "uuid": "938cd70b-8d39-495c-a55f-50bc5212c3ee",
+            "textureUuid": "c9e6f13e-39b5-4ca1-afd6-83c6fcad8139",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_19.png",
+            "trim": {
+              "x": 685,
+              "y": 669,
+              "width": 149,
+              "height": 149,
+              "rotatedWidth": 149,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 149,
+            "rawHeight": 149,
+            "width": 155,
+            "height": 155,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/c9/c9e6f13e-39b5-4ca1-afd6-83c6fcad8139.png",
+            "x": 682,
+            "y": 666,
+            "rotatedWidth": 155,
+            "rotatedHeight": 155
+          },
+          {
+            "name": "down_press",
+            "uuid": "96bd552d-939e-4aac-a4e0-4479e083a76d",
+            "textureUuid": "9c14ae20-2066-48ef-941b-26eaac99e517",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_21.png",
+            "trim": {
+              "x": 752,
+              "y": 824,
+              "width": 149,
+              "height": 149,
+              "rotatedWidth": 149,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 149,
+            "rawHeight": 149,
+            "width": 155,
+            "height": 155,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/9c/9c14ae20-2066-48ef-941b-26eaac99e517.png",
+            "x": 749,
+            "y": 821,
+            "rotatedWidth": 155,
+            "rotatedHeight": 155
+          },
+          {
+            "name": "right_press",
+            "uuid": "ecdec37e-deae-4fac-8550-4c6356723256",
+            "textureUuid": "dadbb8ea-5bb6-4683-9190-44d3d0fff1ca",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_29.png",
+            "trim": {
+              "x": 840,
+              "y": 669,
+              "width": 149,
+              "height": 149,
+              "rotatedWidth": 149,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 149,
+            "rawHeight": 149,
+            "width": 155,
+            "height": 155,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/da/dadbb8ea-5bb6-4683-9190-44d3d0fff1ca.png",
+            "x": 837,
+            "y": 666,
+            "rotatedWidth": 155,
+            "rotatedHeight": 155
+          },
+          {
+            "name": "level",
+            "uuid": "b5abe5ec-4e93-4e83-9699-1ca6e4666fad",
+            "textureUuid": "c8a08785-84a6-4fc1-914e-26c66bcd91d0",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_23.png",
+            "trim": {
+              "x": 907,
+              "y": 824,
+              "width": 109,
+              "height": 109,
+              "rotatedWidth": 109,
+              "rotatedHeight": 109
+            },
+            "rawWidth": 109,
+            "rawHeight": 109,
+            "width": 115,
+            "height": 115,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/c8/c8a08785-84a6-4fc1-914e-26c66bcd91d0.png",
+            "x": 904,
+            "y": 821,
+            "rotatedWidth": 115,
+            "rotatedHeight": 115
+          },
+          {
+            "name": "fruit3",
+            "uuid": "17ad5db4-82f0-4e63-b155-769432c73518",
+            "textureUuid": "f9282ebe-c2f4-4323-8ba9-80e9d129cda7",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259826_image_3.png",
+            "trim": {
+              "x": 995,
+              "y": 531,
+              "width": 21,
+              "height": 21,
+              "rotatedWidth": 21,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 21,
+            "rawHeight": 21,
+            "width": 27,
+            "height": 27,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/f9/f9282ebe-c2f4-4323-8ba9-80e9d129cda7.png",
+            "x": 992,
+            "y": 528,
+            "rotatedWidth": 27,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "fruit4",
+            "uuid": "2b5febae-913a-4f99-8685-3de76aed7dc0",
+            "textureUuid": "562b0c91-106d-451a-803c-d1166b8a80bd",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259826_image_8.png",
+            "trim": {
+              "x": 995,
+              "y": 558,
+              "width": 21,
+              "height": 21,
+              "rotatedWidth": 21,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 21,
+            "rawHeight": 21,
+            "width": 27,
+            "height": 27,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/56/562b0c91-106d-451a-803c-d1166b8a80bd.png",
+            "x": 992,
+            "y": 555,
+            "rotatedWidth": 27,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "fruit1",
+            "uuid": "500c6f59-37ef-4749-9165-b63345642e1e",
+            "textureUuid": "a49340b6-6c2c-4cc2-a070-2672db4a9069",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259827_image_11.png",
+            "trim": {
+              "x": 995,
+              "y": 585,
+              "width": 21,
+              "height": 21,
+              "rotatedWidth": 21,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 21,
+            "rawHeight": 21,
+            "width": 27,
+            "height": 27,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/a4/a49340b6-6c2c-4cc2-a070-2672db4a9069.png",
+            "x": 992,
+            "y": 582,
+            "rotatedWidth": 27,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "block",
+            "uuid": "a24a5ff7-8b61-42e9-a263-40b79d6437e6",
+            "textureUuid": "abe90900-ffb3-4590-9e49-a07695621c7e",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_22.png",
+            "trim": {
+              "x": 995,
+              "y": 612,
+              "width": 21,
+              "height": 21,
+              "rotatedWidth": 21,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 21,
+            "rawHeight": 21,
+            "width": 27,
+            "height": 27,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/ab/abe90900-ffb3-4590-9e49-a07695621c7e.png",
+            "x": 992,
+            "y": 609,
+            "rotatedWidth": 27,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "snakehead",
+            "uuid": "bffb11b8-76a3-433d-9c64-f2cd661ea99c",
+            "textureUuid": "4d07bc66-a634-4872-b48b-3add3c827018",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_25.png",
+            "trim": {
+              "x": 979,
+              "y": 639,
+              "width": 21,
+              "height": 21,
+              "rotatedWidth": 21,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 21,
+            "rawHeight": 21,
+            "width": 27,
+            "height": 27,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/4d/4d07bc66-a634-4872-b48b-3add3c827018.png",
+            "x": 976,
+            "y": 636,
+            "rotatedWidth": 27,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "boom",
+            "uuid": "8cbe5481-dd45-4e03-b250-545e810e2541",
+            "textureUuid": "a9338fdb-bac3-4632-a12a-61b695519744",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259827_image_17.png",
+            "trim": {
+              "x": 995,
+              "y": 666,
+              "width": 19,
+              "height": 21,
+              "rotatedWidth": 21,
+              "rotatedHeight": 19
+            },
+            "rawWidth": 21,
+            "rawHeight": 21,
+            "width": 25,
+            "height": 27,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/a9/a9338fdb-bac3-4632-a12a-61b695519744.png",
+            "x": 992,
+            "y": 663,
+            "rotated": true,
+            "rotatedWidth": 27,
+            "rotatedHeight": 25
+          },
+          {
+            "name": "fruit2",
+            "uuid": "56483bff-765c-48a1-bcf6-7998752d855a",
+            "textureUuid": "2eed63c0-1e1b-4804-b527-f7b7b86ab271",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259827_image_12.png",
+            "trim": {
+              "x": 995,
+              "y": 691,
+              "width": 17,
+              "height": 21,
+              "rotatedWidth": 21,
+              "rotatedHeight": 17
+            },
+            "rawWidth": 21,
+            "rawHeight": 21,
+            "width": 23,
+            "height": 27,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/2e/2eed63c0-1e1b-4804-b527-f7b7b86ab271.png",
+            "x": 992,
+            "y": 688,
+            "rotated": true,
+            "rotatedWidth": 27,
+            "rotatedHeight": 23
+          }
+        ],
+        "width": 1024,
+        "height": 1024,
+        "name": "mainTxt-1",
+        "imagePath": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/TexturePacker/preview/assets/sprites/mainTxt.pac/mainTxt-1.png"
+      },
+      {
+        "files": [
+          {
+            "name": "right",
+            "uuid": "ffe4083b-1ad1-423d-b796-c4ce52ebe9a9",
+            "textureUuid": "7a6baf43-b930-41c8-a7db-51c3b48b525b",
+            "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259828_image_30.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 149,
+              "height": 149,
+              "rotatedWidth": 149,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 149,
+            "rawHeight": 149,
+            "width": 155,
+            "height": 155,
+            "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/7a/7a6baf43-b930-41c8-a7db-51c3b48b525b.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 155,
+            "rotatedHeight": 155
+          }
+        ],
+        "width": 155,
+        "height": 155,
+        "name": "mainTxt-2",
+        "imagePath": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/TexturePacker/preview/assets/sprites/mainTxt.pac/mainTxt-2.png"
+      }
+    ],
+    "unpackedTextures": [
+      {
+        "name": "bg",
+        "uuid": "0e1dd8b9-0b3e-49d1-b0b7-54a9bf3644ae",
+        "textureUuid": "2916df34-c534-47e7-82fd-60cf8aa557e6",
+        "path": "/Users/cocosProjects/RenrenxiuGame_Snake/temp/trimImages/spritesheet_js_1675737259825_image_1.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 700,
+          "height": 1420,
+          "rotatedWidth": 700,
+          "rotatedHeight": 1420
+        },
+        "rawWidth": 700,
+        "rawHeight": 1420,
+        "width": 706,
+        "height": 1426,
+        "originalPath": "/Users/cocosProjects/RenrenxiuGame_Snake/library/imports/29/2916df34-c534-47e7-82fd-60cf8aa557e6.png"
+      }
+    ]
+  }
+}

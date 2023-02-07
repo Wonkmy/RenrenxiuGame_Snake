@@ -33,19 +33,22 @@ var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Block = /** @class */ (function (_super) {
     __extends(Block, _super);
     function Block() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.fruitType = -1;
+        return _this;
     }
-    Block.prototype.init = function (picTexture, pos, fruitType) {
+    Block.prototype.init = function (picTexture, pos, _fruitType) {
         if (pos === void 0) { pos = cc.Vec2.ZERO; }
-        if (fruitType === void 0) { fruitType = 1; }
+        if (_fruitType === void 0) { _fruitType = 1; }
+        this.fruitType = _fruitType;
         var sprite = this.node.getComponent(cc.Sprite);
         var width = this.node.width;
         var height = this.node.height;
-        if (fruitType == 0) {
+        if (this.fruitType == 0) {
             var frame = new cc.SpriteFrame(picTexture, cc.rect(pos.x * width, pos.y * height, width, height));
             sprite.spriteFrame = frame;
         }
-        else if (fruitType == 1) {
+        else if (this.fruitType == 1) {
             sprite.spriteFrame = picTexture;
         }
     };

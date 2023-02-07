@@ -30,17 +30,49 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var Block_1 = require("./Block");
+var Snake_1 = require("./Snake/Snake");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Main = /** @class */ (function (_super) {
     __extends(Main, _super);
     function Main() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.bigfruit = null;
+        _this.snakePrefab = null;
         _this.bigFruitOrgin_sprite = null;
+        _this.upArrow = null;
+        _this.downArrow = null;
+        _this.leftArrow = null;
+        _this.rightArrow = null;
         return _this;
     }
     Main.prototype.onLoad = function () {
         this.GeneratorBigFood(this.bigFruitOrgin_sprite.getTexture());
+        cc.director.getCollisionManager().enabled = true;
+        cc.director.getPhysicsManager().enabled = true;
+        this.upArrow.on(cc.Node.EventType.TOUCH_END, function () {
+            console.log("move!!!");
+            cc.game.emit("move_up", "up");
+        }, this);
+        this.downArrow.on(cc.Node.EventType.TOUCH_END, function () {
+            console.log("move!!!");
+            cc.game.emit("move_down", "down");
+        }, this);
+        this.leftArrow.on(cc.Node.EventType.TOUCH_END, function () {
+            console.log("move!!!");
+            cc.game.emit("move_left", "left");
+        }, this);
+        this.rightArrow.on(cc.Node.EventType.TOUCH_END, function () {
+            console.log("move!!!");
+            cc.game.emit("move_right", "right");
+        }, this);
+        this.GeneratorSnake();
+    };
+    Main.prototype.GeneratorSnake = function () {
+        var newSnake = cc.instantiate(this.snakePrefab);
+        newSnake.setParent(this.node);
+        newSnake.setPosition(cc.Vec2.ZERO);
+        //newSnake.getComponent(Snake).initSnake(0);
+        newSnake.getComponent(Snake_1.default).startMove();
     };
     Main.prototype.GeneratorBigFood = function (bigFriutSprite) {
         for (var i = 0; i < 2; i++) {
@@ -68,8 +100,23 @@ var Main = /** @class */ (function (_super) {
         property({ type: cc.Prefab })
     ], Main.prototype, "bigfruit", void 0);
     __decorate([
+        property({ type: cc.Prefab })
+    ], Main.prototype, "snakePrefab", void 0);
+    __decorate([
         property({ type: cc.SpriteFrame })
     ], Main.prototype, "bigFruitOrgin_sprite", void 0);
+    __decorate([
+        property(cc.Node)
+    ], Main.prototype, "upArrow", void 0);
+    __decorate([
+        property(cc.Node)
+    ], Main.prototype, "downArrow", void 0);
+    __decorate([
+        property(cc.Node)
+    ], Main.prototype, "leftArrow", void 0);
+    __decorate([
+        property(cc.Node)
+    ], Main.prototype, "rightArrow", void 0);
     Main = __decorate([
         ccclass
     ], Main);

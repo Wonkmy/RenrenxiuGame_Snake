@@ -12,6 +12,8 @@
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
 require('./assets/scripts/Block');
 require('./assets/scripts/Main');
+require('./assets/scripts/Snake/Body');
+require('./assets/scripts/Snake/Snake');
 
                     }
                     if (nodeEnv) {

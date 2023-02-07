@@ -505,8 +505,8 @@
     "relativePath": "scenes"
   },
   "e357823c-31ca-47af-b54b-ceb09ee69229": {
-    "asset": 1675731608212,
-    "meta": 1675731727110,
+    "asset": 1675733512646,
+    "meta": 1675735506382,
     "relativePath": "scripts"
   },
   "e658e515-67fd-4971-80a6-0aa776b49445": {
@@ -520,8 +520,8 @@
     "relativePath": "sprites/fruit"
   },
   "5ee5386d-9987-45a1-b4da-2fa1c52daaba": {
-    "asset": 1675733526971,
-    "meta": 1675733526990,
+    "asset": 1675747969520,
+    "meta": 1675747969528,
     "relativePath": "scenes/game.fire"
   },
   "abe90900-ffb3-4590-9e49-a07695621c7e": {
@@ -700,18 +700,48 @@
     "relativePath": "resources"
   },
   "bb6d1359-ddee-4cb4-9d02-15ffb3cb68f8": {
-    "asset": 1675732040932,
-    "meta": 1675732040938,
+    "asset": 1675748005642,
+    "meta": 1675748005650,
     "relativePath": "resources/food_base.prefab"
   },
+  "0e25d315-3701-48f0-9ab9-4020df615bed": {
+    "asset": 1675737249206,
+    "meta": 1675737331900,
+    "relativePath": "sprites/mainTxt.pac"
+  },
+  "b41d175a-fb09-4b97-9a2b-27eb37de572b": {
+    "asset": 1675747583230,
+    "meta": 1675747583236,
+    "relativePath": "resources/snake_body.prefab"
+  },
+  "190dd627-e3d7-4100-b628-a3b2ebdaa853": {
+    "asset": 1675744932593,
+    "meta": 1675744932598,
+    "relativePath": "resources/Snake.prefab"
+  },
   "8d96bf03-c41f-4383-9af3-ca1d0f0fd617": {
-    "asset": 1675733699721,
-    "meta": 1675733792800,
+    "asset": 1675745026045,
+    "meta": 1675745120935,
     "relativePath": "scripts/Block.ts"
   },
+  "0510ea9d-b0d0-426e-9ff5-279618c19f00": {
+    "asset": 1675747216866,
+    "meta": 1675747216868,
+    "relativePath": "scripts/Snake"
+  },
+  "02256396-2d9d-445a-af2b-cf90bceda667": {
+    "asset": 1675747820478,
+    "meta": 1675747886352,
+    "relativePath": "scripts/Snake/Body.ts"
+  },
+  "102a92f8-97f2-48b4-85eb-5cb53f545da5": {
+    "asset": 1675747953196,
+    "meta": 1675747958386,
+    "relativePath": "scripts/Snake/Snake.ts"
+  },
   "2a8a0140-3ed5-4b91-a2a4-3fa6a8858ec7": {
-    "asset": 1675733763266,
-    "meta": 1675733792831,
+    "asset": 1675747975991,
+    "meta": 1675747980754,
     "relativePath": "scripts/Main.ts"
   }
 }
