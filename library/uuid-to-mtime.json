@@ -510,8 +510,8 @@
     "relativePath": "scripts"
   },
   "e658e515-67fd-4971-80a6-0aa776b49445": {
-    "asset": 1675775674982,
-    "meta": 1675775775219,
+    "asset": 1675781281219,
+    "meta": 1676120259587,
     "relativePath": "sprites"
   },
   "05e61b7e-8b7d-498d-b1bb-833286c92021": {
@@ -520,8 +520,8 @@
     "relativePath": "sprites\\fruit"
   },
   "5ee5386d-9987-45a1-b4da-2fa1c52daaba": {
-    "asset": 1675784727578,
-    "meta": 1675784727589,
+    "asset": 1676123685224,
+    "meta": 1676123685234,
     "relativePath": "scenes\\game.fire"
   },
   "abe90900-ffb3-4590-9e49-a07695621c7e": {
@@ -680,8 +680,8 @@
     "relativePath": "sprites\\fruit\\fruit3.png"
   },
   "ccb339c9-07bc-464e-9302-5e946b94aefb": {
-    "asset": 1675775674915,
-    "meta": 1675775775288,
+    "asset": 1675777932720,
+    "meta": 1676120259589,
     "relativePath": "scripts\\Utils"
   },
   "7195088f-0700-4fea-8586-4f11f2485ff6": {
@@ -744,14 +744,19 @@
     "meta": 1675784632402,
     "relativePath": "scripts\\Main.ts"
   },
-  "02256396-2d9d-445a-af2b-cf90bceda667": {
-    "asset": 1675786205654,
-    "meta": 1675786209675,
-    "relativePath": "scripts\\Snake\\Body.ts"
-  },
   "102a92f8-97f2-48b4-85eb-5cb53f545da5": {
     "asset": 1675786208325,
     "meta": 1675786209701,
     "relativePath": "scripts\\Snake\\Snake.ts"
+  },
+  "02256396-2d9d-445a-af2b-cf90bceda667": {
+    "asset": 1675786279349,
+    "meta": 1675786420552,
+    "relativePath": "scripts\\Snake\\Body.ts"
+  },
+  "c098e36c-ccbd-4171-afc0-988907cde976": {
+    "asset": 1676123359729,
+    "meta": 1676123674380,
+    "relativePath": "scripts\\Utils\\GameBrain.ts"
   }
 }

@@ -42,7 +42,7 @@ var Body = /** @class */ (function (_super) {
         var _this = this;
         this.node.getComponent(cc.BoxCollider).enabled = false;
         cc.tween(this.node)
-            .to(this.myrandom(duration, duration * 2), { scale: 1.6 }).to(duration, { scale: 0.95 })
+            .to(this.myrandom(duration, duration * 2), { scale: 1.4 }).to(duration, { scale: 0.95 })
             .call(function () {
             _this.node.getComponent(cc.BoxCollider).enabled = true;
         })

@@ -78,13 +78,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 59
-      },
-      {
         "__id__": 60
       },
       {
         "__id__": 61
+      },
+      {
+        "__id__": 62
       }
     ],
     "_prefab": null,
@@ -258,6 +258,9 @@
       },
       {
         "__id__": 58
+      },
+      {
+        "__id__": 59
       }
     ],
     "_prefab": null,
@@ -2657,6 +2660,16 @@
     "_originalWidth": 700,
     "_originalHeight": 1420,
     "_id": "74nbVVAgBCE4qJysNRlQe+"
+  },
+  {
+    "__type__": "c098eNszL1Bca/AmIkHzel2",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_enabled": true,
+    "_id": "64MLlcJgpAVpKQfEdY5kCr"
   },
   {
     "__type__": "cc.Canvas",
